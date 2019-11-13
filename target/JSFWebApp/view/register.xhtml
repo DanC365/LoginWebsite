@@ -9,10 +9,39 @@
     <ui:define name="content">
         <h1>The Web App - Register Page</h1>
         <h:form>
-            Username: <h:inputText value="#{userBean.user.userName}"/> <p/>
-            First Name: <h:inputText value="#{userBean.user.firstName}"/> <p/>
-            Last Name: <h:inputText value="#{userBean.user.lastName}"/> <p/>
-            Password: <h:inputSecret value="#{userBean.user.password}"/> <p/>
+<!--            <table>-->
+<!--                <tr>-->
+
+<!--                </tr>-->
+<!--            </table>-->
+            <div class="login">
+                <table>
+                    <tr>
+
+                        <td>Username: </td>
+                        <td><h:inputText value="#{userBean.user.userName}"/></td>
+                    </tr>
+                    <tr>
+                        <td>First Name: </td>
+                        <td><h:inputText value="#{userBean.user.firstName}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name: </td>
+                        <td><h:inputText value="#{userBean.user.lastName}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Password: </td>
+                        <td><h:inputSecret value="#{userBean.user.password}"/></td>
+                    </tr>
+                </table>
+<!--                Username: <h:inputText value="#{userBean.user.userName}"/>-->
+
+<!--                First Name: <h:inputText value="#{userBean.user.firstName}"/>-->
+
+<!--                Last Name: <h:inputText value="#{userBean.user.lastName}"/>-->
+
+<!--                Password: <h:inputSecret value="#{userBean.user.password}"/>-->
+            </div>
 
             <h:commandButton value="submit" action="#{userBean.registerNewUser()}" />
         </h:form>

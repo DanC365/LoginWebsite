@@ -9,10 +9,17 @@
     <ui:define name="content">
         <h1>The Web App - Register Page</h1>
         <h:form>
-            Username: <h:inputText value="#{userBean.user.userName}"/> <p/>
-            First Name: <h:inputText value="#{userBean.user.firstName}"/> <p/>
-            Last Name: <h:inputText value="#{userBean.user.lastName}"/> <p/>
-            Password: <h:inputSecret value="#{userBean.user.password}"/> <p/>
+
+            <div class="login">
+
+                Username: <br/><h:inputText value="#{userBean.user.userName}"/><br/>
+
+                First Name: <br/><h:inputText value="#{userBean.user.firstName}"/><br/>
+
+                Last Name: <br/><h:inputText value="#{userBean.user.lastName}"/><br/>
+
+                Password: <br/><h:inputSecret value="#{userBean.user.password}"/>
+            </div>
 
             <h:commandButton value="submit" action="#{userBean.registerNewUser()}" />
         </h:form>

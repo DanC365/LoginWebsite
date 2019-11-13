@@ -10,9 +10,10 @@
     <ui:composition template="/WEB-INF/templates/template.xhtml">
         <ui:define name ="content">
             <h1>The Web App - Login Page</h1>
+
             <h:form>
-                Username: <h:inputText value="#{userBean.user.userName}"/> <p/>
-                Password: <h:inputSecret value="#{userBean.user.password}"/> <p/>
+                Username: <br/><h:inputText value="#{userBean.user.userName}"/> <br/>
+                Password: <br/><h:inputSecret value="#{userBean.user.password}"/> <br/>
                 <h:commandButton value="submit" action="#{userBean.validateUser()}" />
             </h:form>
         </ui:define>

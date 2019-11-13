@@ -16,6 +16,7 @@
     color: #000000;
     margin: 0px;
     /*text-align: center;*/
+    marquee: true;
 }
 
 .headerTitle {
