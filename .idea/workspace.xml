@@ -6,7 +6,22 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a40a27b-1e81-43d6-87b6-b444865e970a" name="Default Changelist" comment="" />
+    <list default="true" id="0a40a27b-1e81-43d6-87b6-b444865e970a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/contentTemplate.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/footerTemplate.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/headerTemplate.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/template.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/spartaLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/login.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/register.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/register.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/signIn.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/signIn.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/welcome.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/welcome.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JSFWebApp/view/login.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSFWebApp/view/login.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JSFWebApp/view/signIn.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSFWebApp/view/signIn.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JSFWebApp/view/welcome.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSFWebApp/view/welcome.xhtml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +33,12 @@
       <list>
         <option value="Class" />
         <option value="jsf" />
+        <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -36,9 +55,12 @@
     </option>
   </component>
   <component name="ProjectId" id="1TVwFXHbnJDl76ko6ly4oIneden" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,6 +70,13 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Daniel Curtis\IdeaProjects\JSFWebApp\src\main\webapp\resources\css" />
+      <recent name="C:\Users\Daniel Curtis\IdeaProjects\JSFWebApp\src\main\webapp\resources\images" />
+      <recent name="C:\Users\Daniel Curtis\IdeaProjects\JSFWebApp\src\main\webapp\WEB-INF\template" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -167,11 +196,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573558467380</updated>
-      <workItem from="1573558471380" duration="15693000" />
+      <workItem from="1573558471380" duration="21645000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

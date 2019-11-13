@@ -6,12 +6,16 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 
-<h:body>
-    <h1>The Web App - Login Page</h1>
-    <h:form>
-        Username: <h:inputText value="#{userBean.user.userName}"/> <p/>
-        Password: <h:inputSecret value="#{userBean.user.password}"/> <p/>
-        <h:commandButton value="submit" action="#{userBean.validateUser()}" />
-    </h:form>
-</h:body>
+<!--<h:body>-->
+    <ui:composition template="/WEB-INF/templates/template.xhtml">
+        <ui:define name ="content">
+            <h1>The Web App - Login Page</h1>
+            <h:form>
+                Username: <h:inputText value="#{userBean.user.userName}"/> <p/>
+                Password: <h:inputSecret value="#{userBean.user.password}"/> <p/>
+                <h:commandButton value="submit" action="#{userBean.validateUser()}" />
+            </h:form>
+        </ui:define>
+    </ui:composition>
+<!--</h:body>-->
 </html>
