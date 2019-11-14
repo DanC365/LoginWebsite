@@ -6,16 +6,18 @@ public class LoginService {
 
 
     public String validateUser(User user) {
-        if(user.getUserName().equals("DanC365") && user.getPassword().equals("Password123")){
-            user.setFirstName("Daniel");
-            user.setLastName("Curtis");
-            return "welcome";
-        }else if(user.getUserName().equals("MagicMikePL") && user.getPassword().equals("Poland123")){
-            user.setFirstName("Michal");
-            user.setLastName("Nowak");
+        User attemptedAccount = (new userAccessor()).getUserDetails(user.getUserName());
+        if(attemptedAccount==null){
+            return "login";
+        }
+
+        if(attemptedAccount.getPassword().equals(user.getPassword())){
+            user.setFirstName(attemptedAccount.getFirstName());
+            user.setLastName(attemptedAccount.getLastName());
             return "welcome";
         }
-        user.setPassword("");
+
         return "login";
+
     }
 }
